@@ -1,0 +1,10 @@
+PUT http://localhost:8080/events/6
+content-type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3QwQGV4YW1wbGUuY29tIiwiZXhwIjoxNzM5MTcxNjc2LCJ1c2VySWQiOjZ9.piUDVZYfXgJhjjJAny5qVBe2d6KpT6JnDwnawCVG5T4
+
+{
+	"name": "Updated test event weewoo",
+	"description": "A test event",
+	"location": "Test location (Updated!)",
+	"dateTime": "2025-01-01T15:30:00Z"
+}
